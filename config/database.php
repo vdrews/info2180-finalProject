@@ -11,6 +11,9 @@ try{
     if(!$conn){
         echo "Connection failed";
     }
+
+    //Comment it out if you need to
+    mysqli_close($conn);
 } catch (mysqli_sql_exception $ex) {
     echo "Could not connect to database.\n";
 }
