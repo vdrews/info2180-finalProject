@@ -8,6 +8,9 @@ $db_name = "dolphin_crm";
 
 try{
     $conn = mysqli_connect($db_server, $db_username, $db_password, $db_name);
+    if(!$conn){
+        echo "Connection failed";
+    }
 } catch (mysqli_sql_exception $ex) {
     echo "Could not connect to database.\n";
 }
