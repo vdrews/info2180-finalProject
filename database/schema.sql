@@ -34,6 +34,8 @@ CREATE TABLE IF NOT EXISTS Notes (
                                      created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+
+-- the Password is hashed (password123) use the password_verify() to un-hash when logging in.
 INSERT INTO Users (firstname, lastname, password, email, role)
     VALUE(
           'ADMIN',
