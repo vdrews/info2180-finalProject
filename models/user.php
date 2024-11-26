@@ -116,14 +116,6 @@ class User{
                     $user['role'],
                     $user['created_at']
                 );
-
-                echo "<br>";
-                echo "ID: {$user['id']}" . "<br>";
-                echo "First Name: {$user['firstname']}" . "<br>";
-                echo "Last Name: {$user['lastname']}" . "<br>";
-                echo "Email: {$user['email']}" . "<br>";
-                echo "Role: {$user['role']}" . "<br>";
-                echo "Created at: {$user['created_at']}" . "<br>";
             }
         }
     }
@@ -154,7 +146,4 @@ class User{
 ?>
 
 <?php
-User::setConnection($conn);
-User::loadUsers();
-
 ?>
