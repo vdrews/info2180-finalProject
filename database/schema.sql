@@ -1,3 +1,4 @@
+-- Import into MAMP/XAMPP phpAdmin database
 CREATE DATABASE IF NOT EXISTS dolphin_crm;
 USE dolphin_crm;
 
@@ -33,7 +34,6 @@ CREATE TABLE IF NOT EXISTS Notes (
                                      created_by INT,
                                      created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
-
 
 -- the Password is hashed (password123) use the password_verify() to un-hash when logging in.
 INSERT INTO Users (firstname, lastname, password, email, role)
