@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+     
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #15223b;
+    color: white;
+    padding: 25px;
+    margin-top: 0;
+}
+.sidebar{
+    display: flex;
+    width :250px;
+    background-color:white;
+    color: black;
+    position: fixed;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+    top: 70px;
+    left:0;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.material-symbols-outlined {
+  vertical-align: middle;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #f1f1f1;
+   color: black;
+   
+}
+
+sect{
+
+    display: flex;
+    margin-top: 80px;
+    flex-grow: 1;
+}
+
+.tableSection{
+    flex-grow: 1;
+    margin-left: 250px;
+    padding: 20px;
+
+}
+
+li{
+margin-bottom: 15px;
+
+
+}
+
+hr{
+    margin-bottom: 15px;
+    width:85%;
+    color: #f1f1f1;
+}
+
+.tableHeading h1{
+    font-size:32px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.tableHeading{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+
+
+
+.addbtn{
+
+    
+    padding: 5px 10px;
+    background-color:#6F00FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.addbtn:hover{
+    background-color:#15223b ;
+}
+
+
+
+.tableincontainer{
+    background-color:white;
+    width:100%;
+    padding: 15px;
+
+
+}
+
+.user-table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+
+
+.user-table th{
+    background-color:rgba(236, 236, 236, 0.664);
+}
+
+.user-table td{
+    background-color: rgb(255, 255, 255);
+    color: #f1f1f1;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+
+.user-table th,
+.user-table td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dfdfdf;
+    color: black;
+    
+}
+.name{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
